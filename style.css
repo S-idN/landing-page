@@ -1,15 +1,73 @@
-.toplayer{
-    background-color: #1f2937;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 90px;
+    height: 25px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-color: #f9faf8;
+    border-style:solid;
+}
+
+.header{
 
 }
 
+.toplayer{
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 0;
+}
+
 .ttext{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
+.left-content{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.right-content{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 400px;
+}
+
+.title2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 .quote{
     background-color: #e5e7eb;
 }
+
+.qtext{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.callact{
+    background-color: #3882f6;
+}
+
