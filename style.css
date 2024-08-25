@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 button{
@@ -16,21 +17,34 @@ button{
 }
 
 .header{
-
+    top:0;
+    margin-left:0;
 }
 
 .toplayer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #1f2937;
-    padding-left: 150px;
+    padding-left: 50px;
     padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 0;
 }
 
 .ttext{
+    max-height: fit-content;
     font-size: 48px;
+    line-height: 100px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.content{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.mainimg{
+    align-self: end;
 }
 
 .left-content{
@@ -42,12 +56,6 @@ button{
 .right-content{
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.content{
-    font-size: 18px;
-    color: #e5e7eb;
-    width: 400px;
 }
 
 .title2{
