@@ -156,9 +156,8 @@ button{
     align-items: center;
     background-color: #e5e7eb;
     padding-left: 50px;
-    padding-top: 50px;
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
+    padding-top: 5.5%;
+    padding-bottom: 5.5%;
 }
 
 .qtext{
@@ -166,6 +165,7 @@ button{
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    padding:50px;
 }
 
 .credit{
@@ -173,9 +173,63 @@ button{
     font-size: 26px;
     font-weight: 700;
     margin-left: 500px;
+    align-self: flex-end;
+    padding-right:85px;
 }
 
+/*quote layer ends here*/
+/*call to act*/
+
 .callact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
     background-color: #3882f6;
+    padding-top: 2.5%;
+    padding-bottom:2.5%;
+    width: 70%;
+    border-radius: 12px;
+    margin: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    row-gap: 1px;
 }
+
+.ctextcont{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 750px;
+    margin-left: 20px;
+}
+
+.cbutton{
+    margin-top: -55px;
+}
+
+.ctexttitle{
+    font-size: 30px;
+    color: #e5e7eb;
+    width: 750px;
+    font-weight: 700;
+    margin-left: -155px;
+}
+
+/*call to act ends here*/
+/*footer*/
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  3%;
+}
+
+.footertext{
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
 
